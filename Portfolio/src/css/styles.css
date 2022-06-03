@@ -67,10 +67,6 @@ section {
   background-color: #027AAA !important;
 }
 
-.wichtiger-text {
-  font-weight: bold;
-}
-
 .screenreader {
   display: none;
 }
@@ -100,6 +96,15 @@ section:nth-of-type(even) {
   background-color: #ECECEC;
 }
 
+.aufgaben{
+  text-align: left;
+}
+
+.bilder-beschreibung {
+  text-align: center;
+  color: #4B535C;
+}
+
 @media (max-width: 1366px) {
 
   .intro-container {
@@ -120,8 +125,6 @@ section:nth-of-type(even) {
   font-size: 1.6rem;
   text-transform: uppercase;
 }
-
-
 
 .intro-container > p {
   font-size: 1.2rem;
@@ -430,6 +433,36 @@ width: 80%;
 }
 
 /* === ORGANISATION === */
+#organisation-bild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projektantrag {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projektantrag  td:nth-of-type(even) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#projektantrag, #projektantrag  th, #projektantrag  td {
+  text-align: left;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+@media (max-width: 815px) {
+  #organisation-bild {
+    width: 70%;
+    height: auto;
+  }
+}
 
 /* === PROJEKT === */
 
