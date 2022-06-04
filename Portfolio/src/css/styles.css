@@ -98,11 +98,21 @@ section:nth-of-type(even) {
 
 .aufgaben{
   text-align: left;
+  font-size: 1.2rem;
 }
 
 .bilder-beschreibung {
   text-align: center;
   color: #4B535C;
+}
+
+.intro-container > h1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.intro-container > p {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1366px) {
@@ -119,15 +129,6 @@ section:nth-of-type(even) {
       width: 100%;
     }
 
-}
-
-.intro-container > h1 {
-  font-size: 1.6rem;
-  text-transform: uppercase;
-}
-
-.intro-container > p {
-  font-size: 1.2rem;
 }
 
 @media (max-width: 1366px) {
@@ -465,6 +466,19 @@ width: 80%;
 }
 
 /* === PROJEKT === */
+
+#gantt-diagramm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1220px) {
+  #gantt-diagramm {
+    width: 70%;
+    height: auto;
+  }
+}
 
 /* === IPERKA === */
 
