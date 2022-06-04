@@ -452,7 +452,7 @@ width: 80%;
   padding-bottom: 10px;
 }
 
-#projektantrag, #projektantrag  th, #projektantrag  td {
+#projektantrag  th, #projektantrag  td {
   text-align: left;
   border: 1px solid #000;
   border-collapse: collapse;
@@ -482,7 +482,41 @@ width: 80%;
 
 /* === IPERKA === */
 
+#iperka-flipchart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
 /* === INFORMATIONSBESCHAFFUNG === */
+
+#mindmap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#onenote {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 980px) {
+  #mindmap {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media (max-width: 525px) {
+  #onenote {
+    width: 70%;
+    height: auto;
+  }
+}
 
 /* === PLANUNG === */
 
@@ -589,14 +623,6 @@ p {
 .col-3 { width: 50%;     }
 .col-4 { width: 66.666%;  }
 .col-6 { width: 100%;    }
-
-/*
-=== WICHTIGE BREAKPOINTS ===
-
-480 Pixel   (iPhone Querformat)
-768 Pixel   (iPad Hochformat)
-1024 Pixel  (iPad Querformat)
-*/
 
 @media (max-width: 1024px) {
 
