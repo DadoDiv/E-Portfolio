@@ -520,7 +520,33 @@ width: 80%;
 
 /* === PLANUNG === */
 
-/* === VORTRÄGE === */
+#tasks {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+
+#wochenplan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #tasks {
+    width: 90%;
+    height: auto;
+  }
+
+  #wochenplan {
+    width: 90%;
+    height: auto;
+  }
+}
 
 /* === TABELLEN/ABBILDUNGEN === */
 
